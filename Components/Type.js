@@ -1,23 +1,23 @@
 import React from 'react';
 
 const typeColors = {
-    fire: "bg-danger",
+    fire: "custom-fire",
     grass: "bg-success",
-    water: "bg-primary",
-    electric: "bg-warning",
-    poison: "color:purple",
-    flying: "bg-purple-400",
-    ice: "bg-teal-200",
-    bug: "bg-lime-900",
-    fighting: "bg-red-600",
-    ground: "bg-orange-200",
-    psychic: "bg-pink-500",
-    rock: "bg-yellow-700",
-    ghost: "bg-violet-900",
-    dragon: "bg-indigo-600",
-    dark: "bg-black text-white",
+    water: "custom-water",
+    electric: "custom-electric",
+    poison: "custom-poison",
+    flying: "custom-flying",
+    ice: "custom-ice",
+    bug: "custom-bug",
+    fighting: "custom-fighting",
+    ground: "custom-ground",
+    psychic: "custom-psychic",
+    rock: "custom-rock",
+    ghost: "custom-ghost",
+    dragon: "custom-dragon",
+    dark: "custom-dark",
     steel: "bg-light text-dark",
-    fairy: "bg-pink-300",
+    fairy: "custom-fairy",
 };
 
 const Type = ({ typeName }) => {

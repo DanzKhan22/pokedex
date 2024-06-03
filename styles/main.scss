@@ -1,0 +1,84 @@
+@import 'variables';
+
+body {
+  background-color: $dark-bg-color;
+  color: $text-light-color;
+}
+
+.header {
+  background-color: $secondary-color;
+}
+
+.button-danger {
+  background-color: $danger-color;
+  color: $text-light-color;
+}
+
+.button-warning {
+  background-color: $warning-color;
+  color: $text-light-color;
+}
+
+.button-info {
+  background-color: $info-color;
+  color: $text-light-color;
+}
+
+// The custom colors section
+.custom-fire {
+  background-color: $custom-color-1;
+}
+
+.custom-electric {
+  background-color: $custom-color-2;
+}
+
+.custom-water {
+  background-color: $custom-color-3;
+}
+
+.custom-ice {
+  background-color: $custom-color-4;
+}
+
+.custom-fighting {
+  background-color: $custom-color-5;
+}
+
+.custom-poison {
+  background-color: $custom-color-6;
+}
+
+.custom-ground {
+  background-color: $custom-color-7;
+}
+
+.custom-flying {
+  background-color: $custom-color-8;
+}
+
+.custom-psychic {
+  background-color: $custom-color-9;
+}
+
+.custom-bug {
+  background-color: $custom-color-10;
+}
+
+.custom-rock {
+  background-color: $custom-color-11;
+}
+
+.custom-ghost {
+  background-color: $custom-color-12;
+}
+
+.custom-dragon {
+  background-color: $custom-color-13;
+}
+.custom-dark {
+  background-color: $custom-color-14;
+}
+.custom-fairy {
+  background-color: $custom-color-15;
+}
