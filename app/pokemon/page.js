@@ -10,7 +10,10 @@ export default async function PokemonPage({ searchParams }) {
 
     return (
         <div className="text-uppercase fw-bolder">
+            <Search search={search}/>
+            <ul>
             <LoadPokemon initialPokemon={initialPokemon} initialSearch={search} initialPage={page} />
+            </ul>
         </div>
     );
 }

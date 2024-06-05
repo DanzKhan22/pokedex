@@ -15,7 +15,7 @@ const Search = ({search}) => {
             return
         }
         if (!query) {
-            router.push("/");
+            router.push("/pokemon");
         } else {
             router.push(`?search=${query}`);
         }
