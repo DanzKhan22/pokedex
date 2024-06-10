@@ -1,4 +1,4 @@
-import { fetchPokemon } from "@/app/Actions/getPokemon";
+import { fetchPokemon } from "@/app/Actions/api";
 import LoadPokemon from "@/components/LoadPokemon";
 import Search from "@/Components/Search";
 

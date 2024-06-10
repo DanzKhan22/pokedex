@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { fetchPokemon } from "@/app/Actions/getPokemon";
+import { fetchPokemon } from "@/app/Actions/api";
 import PokemonCard from "./PokemonCard";
 
 export const LoadPokemon = ({ initialPokemon, initialSearch, initialPage }) => {
