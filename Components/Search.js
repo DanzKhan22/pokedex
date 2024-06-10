@@ -1,13 +1,12 @@
 "use client"
 import { useRouter } from "next/navigation";
-import { useDebounce } from "use-debounce";
 import { useEffect, useRef, useState } from "react";
 
 const Search = ({search}) => {
     const router = useRouter();
     const initialReader = useRef(true);
     const [text, setText] = useState(search);
-    const [query] = useDebounce(text,750);
+    const [query] = [text, 5];
 
     useEffect (() => {
         if (initialReader.current) {
