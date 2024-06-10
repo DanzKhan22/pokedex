@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "../styles/main.scss"; // Import your main Sass file here
+import "../styles/main.scss";
 import Link from "next/link";
 import Navbar from "@/Components/Navbar";
 
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-dark text-white">
         <header className="bg-secondary d-flex justify-content-evenly">
-          <Link href="/Login">
+          <Link href="/">
             <button type="button" className="shadow btn btn-danger btn-lg m-2 p-2">
               Login
             </button>
