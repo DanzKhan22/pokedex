@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/main.scss"; // Import your main Sass file here
-import "./globals.css";
 import Link from "next/link";
 import Navbar from "@/Components/Navbar";
 
