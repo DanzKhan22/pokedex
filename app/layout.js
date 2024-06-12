@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
 
         <footer className="bg-black">
           <div className="d-flex justify-content-center">
-            <img className="m-3" src="/Rev.png" width={150} height={100} alt="logo" />
+            <img className="m-2" src="/Rev.png" width={150} height={100} alt="logo" />
           </div>
           <div className="d-flex justify-content-center badge badge-pill bg-dark">
             {currentYear} is the current year
