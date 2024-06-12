@@ -39,36 +39,7 @@ export default function RootLayout({ children }) {
           </Link>
         </header>
 
-        <Navbar />
-
-        <div className="col p-2 px-5 d-flex justify-content-center">
-          <div>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Kanto
-            </button>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Johto
-            </button>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Hoenn
-            </button>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Sinnoh
-            </button>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Unova
-            </button>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Kalos
-            </button>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Alola
-            </button>
-            <button type="button" className="btn btn-outline-light btn-lg fs-6 row-md-3 m-1">
-              Galar
-            </button>
-          </div>
-        </div>
+        <Navbar/>
 
         {children}
 
